@@ -10,7 +10,7 @@ namespace Parking1.Models
         public int Capacity { get; set; }
         public int PaymentPeriodicity { get; set; }
         public double FineCoeff { get; set; }
-        public List<Vehicle> Cars { get; set; }
+        public List<Vehicle> Vehicles { get; set; }
         public List<Transaction> Transactions { get; set; }
         
         private Parking()
@@ -26,7 +26,7 @@ namespace Parking1.Models
                     FineCoeff = ParkingSettings.FineCoeff,
                     PaymentPeriodicity = ParkingSettings.PaymentPeriodicity,
                     Transactions =  new List<Transaction>(),
-                    Cars = new List<Vehicle>()
+                    Vehicles = new List<Vehicle>()
                 };
             return instance;
         }
