@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parking1", "Parking1\Parking1.csproj", "{8DE5BB17-D2DB-4940-B485-B1519127C7FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{6DA1DA65-F091-412A-B0B6-B2B8C8DE4B16}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DE5BB17-D2DB-4940-B485-B1519127C7FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DE5BB17-D2DB-4940-B485-B1519127C7FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DE5BB17-D2DB-4940-B485-B1519127C7FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DE5BB17-D2DB-4940-B485-B1519127C7FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DA1DA65-F091-412A-B0B6-B2B8C8DE4B16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DA1DA65-F091-412A-B0B6-B2B8C8DE4B16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DA1DA65-F091-412A-B0B6-B2B8C8DE4B16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DA1DA65-F091-412A-B0B6-B2B8C8DE4B16}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43282FBE-B1D3-4380-9F1B-DF6B99246519}
+	EndGlobalSection
+EndGlobal
